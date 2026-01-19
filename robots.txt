@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /admin.php
+Disallow: /process-booking.php
+Disallow: /includes/
+Disallow: /leads.txt
+
+Sitemap: https://yourwebsite.com/sitemap.xml

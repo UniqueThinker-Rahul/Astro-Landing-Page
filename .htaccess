@@ -1,0 +1,8 @@
+# 1. Block access to the leads text file
+<Files "leads.txt">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+# 2. Prevent directory browsing (So they can't see your file list)
+Options -Indexes
