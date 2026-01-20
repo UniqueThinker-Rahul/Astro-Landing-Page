@@ -92,26 +92,40 @@
 <section class="py-16 bg-black text-white">
     <div class="container mx-auto px-4">
         <div class="text-center mb-12">
-            <h2 class="text-3xl font-bold text-astroYellow">Our Speciality</h2>
-            <p class="text-gray-400">Astrology Prediction Is A God Gift</p>
+            <h2 class="text-3xl font-bold text-astroYellow uppercase tracking-wider">Our Prime Services</h2>
+            <p class="text-gray-400 mt-2">विशेषज्ञ ज्योतिष समाधान (Expert Astrology Solutions)</p>
         </div>
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            <div class="flex flex-col items-center">
-                <div class="w-16 h-16 rounded-full border-2 border-astroYellow flex items-center justify-center bg-white text-black mb-4"><i data-lucide="smile" class="w-8 h-8"></i></div>
-                <h3 class="font-bold">Happy Clients</h3>
+        
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+            
+            <div class="flex flex-col items-center group cursor-pointer">
+                <div class="w-full aspect-square overflow-hidden rounded-xl border-4 border-astroYellow mb-4 shadow-lg shadow-astroYellow/20 transition-transform group-hover:scale-105">
+                    <img src="assets/images/a.jpg" alt="वशीकरण" class="w-full h-full object-cover">
+                </div>
+                <h3 class="font-bold text-xl text-astroYellow">वशीकरण (Vashikaran)</h3>
             </div>
-            <div class="flex flex-col items-center">
-                <div class="w-16 h-16 rounded-full border-2 border-astroYellow flex items-center justify-center bg-white text-black mb-4"><i data-lucide="clock" class="w-8 h-8"></i></div>
-                <h3 class="font-bold">Time Saving</h3>
+
+            <div class="flex flex-col items-center group cursor-pointer">
+                <div class="w-full aspect-square overflow-hidden rounded-xl border-4 border-astroYellow mb-4 shadow-lg shadow-astroYellow/20 transition-transform group-hover:scale-105">
+                    <img src="assets/images/b.jpg" alt="मनचाहा प्यार" class="w-full h-full object-cover">
+                </div>
+                <h3 class="font-bold text-xl text-astroYellow">मनचाहा प्यार</h3>
             </div>
-            <div class="flex flex-col items-center">
-                <div class="w-16 h-16 rounded-full border-2 border-astroYellow flex items-center justify-center bg-white text-black mb-4"><i data-lucide="heart" class="w-8 h-8"></i></div>
-                <h3 class="font-bold">Love Solutions</h3>
+
+            <div class="flex flex-col items-center group cursor-pointer">
+                <div class="w-full aspect-square overflow-hidden rounded-xl border-4 border-astroYellow mb-4 shadow-lg shadow-astroYellow/20 transition-transform group-hover:scale-105">
+                    <img src="assets/images/c.jpg" alt="कुंडली स्पेशलिस्ट" class="w-full h-full object-cover">
+                </div>
+                <h3 class="font-bold text-xl text-astroYellow">कुंडली स्पेशलिस्ट</h3>
             </div>
-            <div class="flex flex-col items-center">
-                <div class="w-16 h-16 rounded-full border-2 border-astroYellow flex items-center justify-center bg-white text-black mb-4"><i data-lucide="gem" class="w-8 h-8"></i></div>
-                <h3 class="font-bold">Marriage Solutions</h3>
+
+            <div class="flex flex-col items-center group cursor-pointer">
+                <div class="w-full aspect-square overflow-hidden rounded-xl border-4 border-astroYellow mb-4 shadow-lg shadow-astroYellow/20 transition-transform group-hover:scale-105">
+                    <img src="assets/images/d.jpg" alt="विदेश यात्रा" class="w-full h-full object-cover">
+                </div>
+                <h3 class="font-bold text-xl text-astroYellow">विदेश यात्रा</h3>
             </div>
+            
         </div>
     </div>
 </section>
@@ -166,6 +180,7 @@
                 <select x-model="formData.service" class="w-full p-4 bg-gray-100 text-black rounded border border-gray-300 outline-none">
                     <option value="Love Problem">Love Problem</option>
                     <option value="Marriage">Marriage Issue</option>
+                    <option value="Vashikaran">Vashikaran Specialist</option>
                     <option value="Business">Business Problem</option>
                 </select>
                 <button type="submit" class="w-full bg-astroYellow hover:bg-yellow-500 text-black font-extrabold py-4 rounded text-xl shadow-lg transition">
