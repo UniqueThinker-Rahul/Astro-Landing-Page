@@ -1,5 +1,59 @@
-<?php include 'includes/header.php'; ?>
+<!-- <?php include 'includes/header.php'; ?> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Param Shakti Astrologer - World Famous</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://unpkg.com/alpinejs" defer></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Merriweather:wght@700&display=swap');
+        body { font-family: 'Poppins', sans-serif; background-color: #ffffff; }
+        .font-serif { font-family: 'Merriweather', serif; }
+        .text-astroRed { color: #b91c1c; } /* Darker Commercial Red */
+        .bg-astroRed { background-color: #b91c1c; }
+        .text-astroYellow { color: #fbbf24; }
+        .bg-astroYellow { background-color: #fbbf24; }
+        .bg-astroBlue { background-color: #1e3a8a; } /* Deep Corporate Blue */
+    </style>
+</head>
+<body class="bg-white text-gray-900">
 
+<div class="bg-astroRed text-white py-2 px-4 text-center text-sm font-bold tracking-wide">
+    <div class="container mx-auto flex justify-between items-center">
+        <span class="hidden md:block">India's No.1 Astrologer Services | 100% Guaranteed Solutions</span>
+        <div class="flex gap-4 mx-auto md:mx-0">
+            <span><i data-lucide="phone" class="inline w-3 h-3"></i> +91 95113 44850</span>
+            <span><i data-lucide="mail" class="inline w-3 h-3"></i> contact@paramshakti.com</span>
+        </div>
+    </div>
+</div>
+
+<nav class="sticky top-0 w-full z-50 bg-white shadow-xl border-b-4 border-astroYellow">
+    <div class="container mx-auto px-4 h-20 flex items-center justify-between">
+        <a href="#" class="flex items-center gap-3">
+            <img src="assets/images/logo.png" alt="Logo" class="h-12 w-12 object-contain">
+            <div>
+                <h1 class="text-2xl font-extrabold text-astroRed uppercase leading-none">Param Shakti</h1>
+                <span class="text-xs text-gray-500 font-bold tracking-[0.2em]">ASTROLOGER</span>
+            </div>
+        </a>
+
+        <div class="hidden md:flex gap-6 text-sm font-bold uppercase text-gray-800">
+            <a href="#" class="hover:text-astroRed">Home</a>
+            <a href="#about" class="hover:text-astroRed">About</a>
+            <a href="#solutions" class="hover:text-astroRed">Solutions</a>
+            <a href="#gallery" class="hover:text-astroRed">Gallery</a>
+            <a href="#contact" class="hover:text-astroRed">Contact</a>
+        </div>
+
+        <a href="tel:+919511344850" class="bg-astroYellow hover:bg-yellow-500 text-black font-bold py-2 px-6 rounded-full shadow-md border-2 border-yellow-600 flex items-center gap-2 animate-pulse">
+            <i data-lucide="phone-call" class="w-4 h-4"></i> Call Now
+        </a>
+    </div>
+</nav>
 <section class="w-full bg-white border-b-4 border-astroYellow">
     <div class="container mx-auto px-4 py-2">
         <img src="assets/images/Sanjay Kumar Shastri ji (1).png" 
@@ -203,4 +257,85 @@ function contactForm() {
 }
 </script>
 
-<?php include 'includes/footer.php'; ?>
+<!-- <?php include 'includes/footer.php'; ?> -->
+ <footer class="bg-astroBlue text-white pt-16 pb-8 border-t-8 border-astroYellow mt-0">
+    <div class="container mx-auto px-4">
+        
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+            
+            <div>
+                <h3 class="text-2xl font-bold text-astroYellow mb-6">Param Shakti</h3>
+                <p class="text-gray-300 text-sm leading-relaxed mb-4">
+                    World-renowned astrologer with over 25 years of experience in Vedic science. We provide 100% effective solutions for all life problems.
+                </p>
+                <div class="flex gap-4">
+                    <a href="#" class="bg-white/10 p-2 rounded hover:bg-astroRed transition"><i data-lucide="facebook" class="w-5 h-5"></i></a>
+                    <a href="#" class="bg-white/10 p-2 rounded hover:bg-astroRed transition"><i data-lucide="instagram" class="w-5 h-5"></i></a>
+                    <a href="#" class="bg-white/10 p-2 rounded hover:bg-astroRed transition"><i data-lucide="youtube" class="w-5 h-5"></i></a>
+                </div>
+            </div>
+
+            <div>
+                <h4 class="text-xl font-bold text-white mb-6 border-b-2 border-astroYellow inline-block pb-2">Love & Marriage</h4>
+                <ul class="space-y-2 text-sm text-gray-300">
+                    <li><a href="#" class="hover:text-astroYellow">Love Problem Solution</a></li>
+                    <li><a href="#" class="hover:text-astroYellow">Inter Caste Marriage</a></li>
+                    <li><a href="#" class="hover:text-astroYellow">Get Lost Love Back</a></li>
+                    <li><a href="#" class="hover:text-astroYellow">Husband Wife Dispute</a></li>
+                    <li><a href="#" class="hover:text-astroYellow">Divorce Problem</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="text-xl font-bold text-white mb-6 border-b-2 border-astroYellow inline-block pb-2">Life Problems</h4>
+                <ul class="space-y-2 text-sm text-gray-300">
+                    <li><a href="#" class="hover:text-astroYellow">Family Dispute</a></li>
+                    <li><a href="#" class="hover:text-astroYellow">Business Problem</a></li>
+                    <li><a href="#" class="hover:text-astroYellow">Job/Career Issues</a></li>
+                    <li><a href="#" class="hover:text-astroYellow">Health Problems</a></li>
+                    <li><a href="#" class="hover:text-astroYellow">Vashikaran Specialist</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="text-xl font-bold text-white mb-6 border-b-2 border-astroYellow inline-block pb-2">Contact Us</h4>
+                <div class="space-y-4 text-sm text-gray-300">
+                    <p class="flex items-start gap-3">
+                        <i data-lucide="map-pin" class="w-5 h-5 text-astroYellow mt-1"></i>
+                        <span>Noida, Uttar Pradesh, India</span>
+                    </p>
+                    <p class="flex items-center gap-3">
+                        <i data-lucide="phone" class="w-5 h-5 text-astroYellow"></i>
+                        <span>+91 95113 44850</span>
+                    </p>
+                    <p class="flex items-center gap-3">
+                        <i data-lucide="mail" class="w-5 h-5 text-astroYellow"></i>
+                        <span>contact@paramshakti.com</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="border-t border-white/10 pt-8 text-center">
+            <p class="text-gray-400 text-sm">
+                &copy; <?php echo date("Y"); ?> Param Shakti Astrologer. All rights reserved. 
+                <span class="block md:inline mt-2 md:mt-0">Disclaimer: Results may vary from person to person.</span>
+            </p>
+        </div>
+    </div>
+</footer>
+
+<div class="fixed bottom-4 right-4 z-50 flex flex-col gap-3">
+    <a href="https://wa.me/919511344850" class="bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg transition-transform hover:scale-110">
+        <i data-lucide="message-circle" class="w-6 h-6"></i>
+    </a>
+    <a href="tel:+919511344850" class="bg-astroRed hover:bg-red-700 text-white p-4 rounded-full shadow-lg transition-transform hover:scale-110">
+        <i data-lucide="phone" class="w-6 h-6"></i>
+    </a>
+</div>
+
+<script>
+    lucide.createIcons();
+</script>
+</body>
+</html>
