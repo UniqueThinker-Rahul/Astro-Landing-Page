@@ -17,6 +17,12 @@
         .bg-astroYellow { background-color: #fbbf24; }
         .bg-astroBlue { background-color: #1e3a8a; } /* Deep Corporate Blue */
     </style>
+    
+    <!-- Vercel Web Analytics -->
+    <script>
+        window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body class="bg-white text-gray-900">
 
